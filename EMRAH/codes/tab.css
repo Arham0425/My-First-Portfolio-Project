@@ -1,0 +1,87 @@
+/* heading section starts from here */
+/* .heading-title::before{
+    content: '';
+    left: 36%;
+    top: 90%;
+}
+
+.heading-title::after{
+    content: '';
+    top: 90%;
+    right: 36%;
+} */
+/* heading section ends here */
+
+/* about section starts from here */
+.about-img img{
+    width: 65%;
+}
+/* about section ends here */
+
+/* portfolio section starts from here */
+
+.portfolio-section{
+    padding: 5% 12%;
+}
+
+/* portfolio sectiion ends here */
+
+/* blog section starts from here */
+
+.blog-section{
+    padding: 15%;
+    padding-bottom: 5%;
+}
+
+.blog-cards{
+    padding: 2% 6% 7% 6%;
+}
+
+/* blog section ends here */
+
+/* before contact section starts from here */
+
+.before-contact{
+    height: 220px;
+}
+
+.before-contact-btn .button{
+    width: 50px;
+    height: 50px;
+    font-size: 1.1rem;
+    margin: 10px;
+    border: 2px solid #FFD771;
+}
+
+.before-contact p{
+    font-size: 0.9rem;
+    font-weight: 500;
+    margin-top: 5px;
+}
+/* before contact section ends from here */
+
+
+/* contact section starts from here */
+
+.contact-title h1{
+    font-size: 1.4rem;
+}
+
+.contact-title h4{
+    font-size: 1rem;
+}
+
+.email-number a{
+    font-size: 0.9rem;
+}
+
+.email-number span{
+    font-size: 0.9rem;
+}
+
+textarea,form input[type=text],input[type=email]{
+    padding: 15px;
+}
+
+
+/* contact section ends here */

@@ -1,0 +1,464 @@
+/* header section starts from here */
+header{
+    height: 850px;
+}
+
+
+.navbar{
+    margin-top: 30px;
+}
+
+.navbar-manu a{
+    font-size: 1rem;
+}
+
+.heading-title{
+    position: relative;
+    margin-top: 140px;
+}
+
+.heading-title img{
+    height: 100px;
+    width: 100px;
+}
+
+.heading-title h2{
+    font-size: 3.5rem;
+    margin-top: 40px;
+}
+
+.heading-title h5{
+    font-size: 1.3rem;
+    margin-top: 20px;
+}
+
+.heading-title .btn{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    border: 3px solid #C4C0CF;
+    margin: 0px;
+    /* margin-top: 25px; */
+    margin-right: 10px;
+    font-size: 1.5rem;
+}
+
+.heading-title .btn:last-child{
+    margin-right: 0;
+}
+
+.heading-title .btn:hover{
+    border: 3px solid #898090;
+}
+
+.header-social::before{
+    left: 0;
+    transform: translateX(-100%);
+}
+.header-social::after{
+    right: 0;
+    transform: translateX(100%);
+}
+
+.header-social:first-child{
+    margin-left: 0;
+}
+.header-social:last-child{
+    margin-right: 0;
+}
+
+
+
+/* .heading-title::before{
+    content: '';
+    left: 39%;
+    top: 92%;
+}
+
+.heading-title::after{
+    content: '';
+    top: 92%;
+    right: 39%;
+} */
+
+.header-desc{
+    padding: 50px;
+}
+
+.header-desc p{
+    font-size: 1.1rem;
+    font-weight: 700;
+    letter-spacing: 3px;
+    margin-top: 50px;
+}
+/* heading section ends here */
+
+
+/* about section starts from here */
+.about-section{
+    padding: 60px 100px 60px 100px;
+}
+
+.about-logo img{
+    width: 100px;
+    margin-bottom: 0;
+}
+
+.about-title h2{
+    font-size: 2rem;
+}
+
+.about-title p{
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+}
+
+.about-row{
+    display: grid;
+    grid-template-columns: 30% auto;
+}
+
+.about-desc{
+    
+}
+
+.about-row .about-desc h2{
+    font-size: 1.2rem;
+}
+
+.about-desc p{
+    font-size: 1rem;
+}
+
+.about-socialmedia-icon .btn{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    border: 3px solid #C4C0CF;
+    margin: 10px;
+    margin-top: 25px;
+    font-size: 1.5rem;
+}
+
+.about-socialmedia-icon .btn:hover{
+    border: 3px solid #898090;
+}
+
+.about-img{
+    position: relative;
+}
+
+.about-img img{
+    width: 90%;
+    border: 5px solid #FFD670;
+    border-radius: 100%;
+    padding: 30px;
+    margin-left: 15px;
+    position: absolute;
+    transform: translateX(-50%);
+}
+
+.about-skills{
+    margin-top: 0;
+    margin-left: 0;
+}
+
+.about-skills h2{
+    font-size: 1.1rem;
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+
+.about-skills p{
+    margin: 5px 0 20px 40px;
+    font-weight: bold;
+}
+
+.about-skills ul{
+    font-size: 0.8rem;
+    margin-bottom: 5px;
+}
+
+.about-skills ul li{
+    margin-bottom: 15px;
+    padding: 10px;
+}
+
+.about-skills .photoshop{
+    position: relative;
+}
+
+.about-skills .photoshop::before{
+    position: absolute;
+    padding: 10px 0 5px 0;
+}
+
+.about-skills .photoshop::after{
+    position: absolute;
+    top: 30%;
+    left: 90%;
+    content: '100%';
+    font-size: larger;
+}
+
+.about-skills .illustrator{
+    position: relative;
+}
+.about-skills .illustrator::before{
+    position: absolute;
+    padding: 10px 0 5px 0;
+}
+
+.about-skills .illustrator::after{
+    position: absolute;
+    top: 28%;
+    left: 62%;
+    content: '70%';
+    font-size: larger;
+}
+
+.about-skills .indesign{
+    position: relative;
+}
+.about-skills .indesign::before{
+    position: absolute;
+    padding: 10px 0 5px 0;
+}
+
+.about-skills .indesign::after{
+    position: absolute;
+    top: 28%;
+    left: 47%;
+    content: '55%';
+    font-size: larger;
+}
+
+.about-skills .html{
+    position: relative;
+}
+.about-skills .html::before{
+    position: absolute;
+    padding: 10px 0 5px 0;
+}
+
+.about-skills .html::after{
+    position: absolute;
+    top: 28%;
+    left: 72%;
+    content: '80%';
+    font-size: larger;
+}
+
+.about-skills .css{
+    position: relative;
+}
+.about-skills .css::before{
+    position: absolute;
+    padding: 10px 0 5px 0;
+}
+
+.about-skills .css::after{
+    position: absolute;
+    top: 28%;
+    left: 64%;
+    content: '72%';
+    font-size: larger;
+}
+
+.about-skills .js{
+    position: relative;
+}
+.about-skills .js::before{
+    position: absolute;
+    padding: 10px 0 5px 0;
+}
+
+.about-skills .js::after{
+    position: absolute;
+    top: 28%;
+    left: 47%;
+    content: '55%';
+    font-size: larger;
+}
+/* about section ends here */
+
+/* portfolio section starts from here */
+
+.portfolio-section{
+    padding: 5% 8%;
+}
+
+.portfolio-row{
+    display: grid;
+    grid-template-columns: 35% 65%;
+    grid-gap: 25px;
+}
+
+.photo-demo{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-columns: auto auto auto auto;
+}
+
+.photo-demo img{
+    width: 100%;
+}
+/* portfolio section ends here */
+
+/* blog section starts from here */
+
+.blog-section{
+    padding: 5% 15%;
+    padding-bottom: 0;
+}
+
+
+
+.blog-title h1{
+    font-size: 2rem;
+    margin-bottom: 5px;
+}
+
+.blog-title hr{
+    border: 2px solid #DBDDE5;
+    width: 70px;
+}
+
+.blog-title h4{
+    font-size: 1rem;
+}
+
+.blog-rows{
+    display: grid;
+    grid-template-columns: 70% 30%;
+    padding-top: 30px;
+}
+
+.blog-desc h2{
+    font-size: 1.2rem;
+    margin-top: 15px;
+}
+
+.blog-desc cite{
+    font-size: 0.9rem;
+}
+
+.blog-desc p{
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.blog-desc hr{
+    border: 1px solid #EEEEEE;
+    margin-bottom: 25px;
+}
+
+.blog-desc h3{
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+.blog-desc span{
+    font-size: 1rem;
+}
+
+#hr2{
+    margin-top: 25px;
+}
+
+.blog-row2{
+    padding: 5px 0 0 30px;
+}
+
+.blog-cards{
+    padding: 2% 9% 4% 9%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 20px;
+}
+
+.card h5{
+    font-size: 0.9rem;
+    margin: 10px 0 0 5px;
+    font-weight: bolder;
+}
+
+.card p{
+    color: #ABB1D7;
+    line-height: 20px;
+    margin: 5px 0 10px 5px;
+    font-size: 0.8rem;
+}
+
+/* blog section ends here */
+
+/* before contact section starts from here */
+
+.before-contact{
+    height: 280px;
+}
+
+.before-contact-btn .button{
+    width: 70px;
+    height: 70px;
+    font-size: 1.4rem;
+    margin: 10px;
+    margin-top: 30px;
+    border: 2px solid #FFD771;
+}
+
+.before-contact p{
+    font-size: 1rem;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+/* before contact section ends here */
+
+/* contact section starts from here */
+
+.contact-section{
+    padding: 10%;
+}
+
+.contact-title h1{
+    font-size: 1.7rem;
+}
+
+.contact-title hr{
+    width: 80px;
+}
+
+.contact-title h4{
+    font-size: 1rem;
+    margin-bottom: 80px;
+}
+
+.email-number a{
+    font-size: 1.1rem;
+}
+
+.email-number span{
+    font-size: 1.1rem;
+}
+
+textarea,form input[type=text],input[type=email]{
+    padding: 20px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    margin-top: 15px;
+}
+
+form input[type=submit]{
+    font-size: 1.1rem;
+    font-weight: 900;
+    padding: 15px;
+    margin-top: 5px;
+}
+
+
+/* contact section ends here */
+
+
+
